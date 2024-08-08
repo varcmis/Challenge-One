@@ -1,7 +1,5 @@
 <h1>Text-Encryptor</h1>
 
-
-README
 Text Encryptor Application
 This project is a simple web-based text encryption and decryption tool. The application allows users to input text, encrypt it using a custom substitution cipher, and decrypt previously encrypted text. Additionally, users can copy the resulting encrypted or decrypted text to the clipboard.
 
