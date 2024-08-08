@@ -1,4 +1,4 @@
-<h1>Encriptador de texto</h1>
+<h1>Text-Encryptor</h1>
 
 
 README
