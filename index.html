@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        Encriptador de texto
+    </header>
+    <main class="main">
+        <section class="general">
+            <section class="sectionleft__logo ">
+                <div class="divleft__logo">
+                    <img class="logo" src="./assets/Logo.png">
+                </div>
+            </section>
+            <section class="section__input__frame__text">
+                <div>
+                    <textarea class="textarea__frame__text" id="inputword" placeholder="Ingrese el texto aqui" >"Consequat reprehenderit cillum pariatur dolore consequat nostrud incididunt est nisi. Labore consectetur excepteur cillum laborum deserunt officia fugiat commodo in dolore incididunt cillum id deserunt. Anim consectetur ipsum minim commodo reprehenderit id fugiat."</textarea>
+                </div>
+                <div class="section__div__validation">
+                    <div class="divpar">
+                        <div>
+                            <p class="ico"><img src="./assets/bi_exclamation-circle-fill.png">Solo letras minúsculas y
+                                sin acentos</p>
+                        </div>
+                        <div class="divbutt">
+                            <div>
+                                <button class="button__presentation__dp" id="botonDesencriptar" onclick="desencriptarTexto();">Desencriptar</button>
+                            </div>
+                            <div>
+                                <button class="button__presentation__ep" id="botonEncriptar" onclick="encriptarTexto();">Encriptar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="section__frame__result">
+                <div id="reportResult" class="div__frame__result">
+                    <img class="mun" src="./assets/Muñeco.png">
+                    <p class="p1">Ningún mensaje fue<br>encontrado</p>
+                    <p class="p2">Ingresa el texto que desees encriptar o<br>desencriptar.</p>
+                </div>
+                    <button id="copyButton" onclick="copyResultToClipboard();" class="button__presentation__dp" style="display: none; align-self: center; margin-bottom: 20px;">Copiar</button>
+            </section>     
+        </section>
+    </main>
+    <script src="app.js">
+    </script>
+    <footer class="footer">
+        <p>Tool By: Wilson Melo</p>
+    </footer>
+</body>
+</html>
